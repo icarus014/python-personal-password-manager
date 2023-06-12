@@ -1,10 +1,10 @@
 # asking users what the naster password is
 from cryptography.fernet import Fernet
-
-# def write_key():
-#     key = Fernet.generate_key()
-#     with open ("key.key", "wb") as key_file:
-#         key_file.write(key)
+# generates the .key file 
+    # def write_key():
+    #     key = Fernet.generate_key()
+    #     with open ("key.key", "wb") as key_file:
+    #         key_file.write(key)
 
 
 def load_key():
